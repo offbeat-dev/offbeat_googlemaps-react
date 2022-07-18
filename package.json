@@ -11,11 +11,11 @@
   "dependencies": {
     "@googlemaps/js-api-loader": "^1.14.3",
     "@googlemaps/markerclusterer": "^2.0.8",
-    "npm-overlapping-marker-spiderfier": "^1.0.3",
     "prop-types": "^15.8.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "styled-components": "^5.3.5"
+    "styled-components": "^5.3.5",
+    "ts-overlapping-marker-spiderfier": "^1.0.3"
   },
   "devDependencies": {
     "@types/google.maps": "^3.49.2",

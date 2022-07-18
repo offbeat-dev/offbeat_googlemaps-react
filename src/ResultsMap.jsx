@@ -3,7 +3,7 @@ import { MarkerClusterer } from "@googlemaps/markerclusterer";
 import { Loader } from "@googlemaps/js-api-loader";
 import "./info-window-styles.css";
 import createHTMLMapMarker from "./google-custom-marker";
-import oms from "npm-overlapping-marker-spiderfier/lib/oms.min";
+import { OverlappingMarkerSpiderfier } from "ts-overlapping-marker-spiderfier";
 
 const ResultsMap = () => {
   let overlapSpiderifier = null;
@@ -50,10 +50,10 @@ const ResultsMap = () => {
     // { lat: -43.999792, lng: 170.463352 },
   ];
 
-  const options = {
-    imagePath:
-      "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m", // so you must have m1.png, m2.png, m3.png, m4.png, m5.png and m6.png in that folder
-  };
+  // const options = {
+  //   imagePath:
+  //     "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m", // so you must have m1.png, m2.png, m3.png, m4.png, m5.png and m6.png in that folder
+  // };
 
   const handleGoogleLoaded = (google) => {
     infoWindow = new google.maps.InfoWindow({});
@@ -66,7 +66,7 @@ const ResultsMap = () => {
       infoWindow.close();
     });
 
-    overlapSpiderifier = new oms.OverlappingMarkerSpiderfier(instance, {
+    overlapSpiderifier = new OverlappingMarkerSpiderfier(instance, {
       keepSpiderfied: true,
       ignoreMapClick: true,
       legWeight: 0,
