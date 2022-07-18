@@ -667,6 +667,11 @@ node-releases@^2.0.6:
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-2.0.6.tgz#8a7088c63a55e493845683ebf3c828d8c51c5503"
   integrity sha512-PiVXnNuFm5+iYkLBNeq5211hvO38y63T0i2KKh2KnUs3RpzJ+JtODFjkD8yjLwnDkTYF1eKXheUwdssR+NRZdg==
 
+npm-overlapping-marker-spiderfier@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/npm-overlapping-marker-spiderfier/-/npm-overlapping-marker-spiderfier-1.0.3.tgz#4099e3645cd9371de151c924ced406db9b3d4a28"
+  integrity sha512-YFEd5gwN6Z/MIiXO6ya4+JyJb2zusxbs1KHqcBR+at9HCcub9qEmW51QWS7JGyVwomOY2we6yn/JBvp/PQewbQ==
+
 object-assign@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
